@@ -1,8 +1,7 @@
 import React from 'react'
 import { Button } from 'flowbite-react'
 
-import Image from '@material-tailwind/react/Image';
-import Icon from '@material-tailwind/react/Icon';
+import Image from '@material-tailwind/react/Image'; 
 import LeadText from '@material-tailwind/react/LeadText';
 import { MdPlace , MdSchool} from "react-icons/md";
 

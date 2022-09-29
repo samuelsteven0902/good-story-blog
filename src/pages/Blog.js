@@ -9,7 +9,7 @@ function Blog() {
         <div>
             <Navbar />
         </div>
-        <main className='bg-[#1E1E1E] pt-12'>
+        <main className='bg-[#1E1E1E] pt-12 h-screen'>
             <PopulerToday />
             <Footer />
         </main>

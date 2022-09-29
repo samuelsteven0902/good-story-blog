@@ -9,16 +9,16 @@ import Footer from '../components/Footer'
 
 function Home() {
   return (
-    <div className='relative'>
+    <div className=''>
         <div>
             <Navbar />
         </div>
-        <main className='bg-[#1E1E1E]'>
+        <main className='bg-[#1E1E1E] '>
             <Header />
             <CreateBlog />
             <PopulerToday />
             <PopulerCategory />
-        <Footer />
+            <Footer />
         </main>
     </div>
   )
