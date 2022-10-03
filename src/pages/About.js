@@ -10,7 +10,7 @@ function About() {
             <div>
                 <Navbar />
             </div>
-            <main className=''>
+            <main className='bg-[#1E1E1E] '>
                 <Header />
                 <ProfileSection />
                 <Footer />

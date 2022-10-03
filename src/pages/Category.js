@@ -9,7 +9,7 @@ function Category() {
             <div>
                 <Navbar />
             </div>
-            <main className='bg-[#1E1E1E] pt-12  h-screen'>
+            <main className='bg-[#1E1E1E] pt-12 '>
                 <PopulerCategory />
                 <Footer />
             </main>

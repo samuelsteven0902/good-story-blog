@@ -13,7 +13,7 @@ function ProfileSection() {
     
     <section className="relative py-16 bg-[#1E1E1E] ">
     <div className="container max-w-7xl px-4 mx-auto">
-        <div className="relative flex flex-col min-w-0 break-words bg-[#555555] w-full mb-6 shadow-xl rounded-2xl -mt-64">
+        <div className="relative flex flex-col min-w-0 break-words bg-[#2e2e2e] w-full mb-6 shadow-xl rounded-2xl -mt-64">
             <div className="px-6">
                 <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
@@ -78,17 +78,18 @@ function ProfileSection() {
                 <div className="mb-10 py-2 border-t border-gray-200 text-center">
                     <div className="flex flex-wrap justify-center">
                         <div className="w-full lg:w-9/12 px-4 flex flex-col items-center">
-                            <LeadText color="light">
-                            Good Story Blog is Blog that provides a place for everyone who wants to realize creativity and innovation, from Vocational Higher Education to all in the form of a blog. This blog is useful for us during this pandemic period which can realize creativity and innovation through this blog so that every student and other people can interact with each other, among others
-                            </LeadText>
+                            <p className='font-sans text-lg font-thin text-slate-200'>
+                            Good Story Blog is Blog that provides a place for everyone who wants to realize creativity and innovation, from Vocational Higher Education to all in the form of a blog. This blog is useful for us during this pandemic period which can realize creativity and innovation through this blog so that every student and other people can interact with each other, among others.
+                            </p>
                             <a
                                 href="#pablo"
                                 onClick={(e) => e.preventDefault()}
                             >
                                 <Button
-                                    color="lightBlue"
+                                    color="dark"
                                     buttonType="link"
                                     ripple="dark"
+                                    className='bg-slate-800'
                                 >
                                     Show more
                                 </Button>

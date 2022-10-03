@@ -4,8 +4,9 @@ import Header from '../components/Home/Header'
 import Navbar from '../components/Navbar'
 import CreateBlog from '../components/CreateBlog'
 import PopulerToday from '../components/PopulerToday'
-import PopulerCategory from '../components/PopulerCategory'
 import Footer from '../components/Footer'
+import PopulerTodayHome from '../components/Home/PopulerTodayHome'
+import PopulerCategoryHome from '../components/Home/PopulerCategoryHome'
 
 function Home() {
   return (
@@ -16,8 +17,8 @@ function Home() {
         <main className='bg-[#1E1E1E] '>
             <Header />
             <CreateBlog />
-            <PopulerToday />
-            <PopulerCategory />
+            <PopulerTodayHome />
+            <PopulerCategoryHome />
             <Footer />
         </main>
     </div>

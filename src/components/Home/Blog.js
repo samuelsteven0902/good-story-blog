@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom'
 import olivia from "../../assets/imgs/PopulerToday/olivia.png"
 import  utils  from '../../utils/utils'
 
-function Tables(stat) {
-    console.log(stat);
-    const [status,setStatus] = useState(false)
+function Blog() {
   return (
     <div className='w-full items-center justify-center mx-auto md:flex'>
         <div className='md:w-[35%] md:h-[35%] w-3/4 mx-auto'>
@@ -19,7 +17,7 @@ function Tables(stat) {
         </div>
                 
         <div className='flex md:w-[60%] w-full flex-wrap'>
-                {utils()?.slice(0,6).map((data)=>
+                {utils()?.slice(0,5).map((data)=>
                     (
                             <div id={data.id} key={data.id} className='relative w-[26%]   m-3 bg-[#3f3f3f] rounded-md'>
                                 <img src={data.img} alt='Gambar' className='w-42 h-42    rounded-sm  bg-contain bg-center ' />
@@ -30,12 +28,16 @@ function Tables(stat) {
                             </div>
                         )
                 )}
+            <Link to='/blog'  className='w-[26%] bg-[#3f3f3f] rounded-md m-3 hover:bg-slate-500 transition-all duration-500 hover:text-lg text-white hover:text-black'>
+                <div className='flex justify-center align-middle items-center h-full '>
+                    <p>Read more</p>
+                </div>
+            </Link>
         </div>
 
 
     </div>
-
   )
 }
 
-export default Tables
+export default Blog

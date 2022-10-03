@@ -12,16 +12,19 @@ function Header() {
             <Carousel slideInterval={5000}>
                 
             <div className="relative flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-      <p className='absolute text-black font-bold text-2xl tracking-[1em]'>BLOGGER</p>
+      <p className='absolute text-white font-bold text-4xl tracking-[1em]'>BLOGGER</p>
     <img
                 src={home1}
                 alt="..."
                 />
     </div>
+            <div className="relative flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
+      <p className='absolute text-white font-bold text-4xl tracking-[0.5em]'>Good Story Blog</p>
+
                 <img
                 src={home2}
                 alt="..."
-                />
+                /></div>
             </Carousel>
         </div>
 

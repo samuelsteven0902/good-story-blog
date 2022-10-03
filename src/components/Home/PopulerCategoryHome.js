@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from '../PopulerCategory/Header'
 import dataCategory from '../../utils/DataCategory'
 
-function Tables() {
+function PopulerCategoryHome() {
   return (
-    <div className='flex flex-wrap justify-center'>
-      {dataCategory()?.map((data,index)=>(
+    <div className=' m-12'>
+        <Header />
+        <div className='flex flex-wrap justify-center'>
+      {dataCategory()?.slice(0,3).map((data,index)=>(
         
         <div key={index} className='relative w-1/3 md:w-1/4 m-5'>
           <img src={data.img} alt="Gambar" className='w-full min-h-full rounded-sm' />
@@ -13,7 +16,8 @@ function Tables() {
 
       ))}
     </div>
+    </div>
   )
 }
 
-export default Tables
+export default PopulerCategoryHome
